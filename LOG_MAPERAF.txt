@@ -1,0 +1,3 @@
+[2019-09-15 18:58]
+Commit inicial.
+Projeto inicial contém, movimento do jogador. Ações de pegar objeto e depositar no baú.
