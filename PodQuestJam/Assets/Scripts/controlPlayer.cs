@@ -29,7 +29,8 @@ public class controlPlayer : MonoBehaviour
         position = new Vector3(positionX, 0, positionY);
         myRigidBody.MovePosition(myRigidBody.position + position * Time.deltaTime * mySpeed);
 
-        myRigidBody.rotation = Quaternion.LookRotation(position, Vector3.zero);
+        if (position != Vector3.zero)
+            myRigidBody.rotation = Quaternion.LookRotation(position, Vector3.zero);
     }
 
 }

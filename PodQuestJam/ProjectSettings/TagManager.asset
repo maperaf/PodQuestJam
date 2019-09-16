@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Chest
+  - TreadmillPiece
+  - DestroyTreadmillPiece
+  - Treadmill
   layers:
   - Default
   - TransparentFX
