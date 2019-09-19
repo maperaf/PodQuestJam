@@ -8,6 +8,7 @@ TagManager:
   - TreadmillPiece
   - DestroyTreadmillPiece
   - Treadmill
+  - CreateTreadMillPiece
   layers:
   - Default
   - TransparentFX
